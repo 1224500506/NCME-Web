@@ -1,0 +1,19 @@
+.wrap { height: 100px; width: 100%; }
+
+.wrap .header { height: 100%; }
+
+.wrap .header .logo { width: 50px; }
+
+.wrap .content { width: 100%; }
+
+.wrap .content .main_cont { width: 80%; float: left; }
+
+.wrap .content .aside { width: 20%; float: left; }
+
+.wrap .footer { width: 100%; }
+
+.wrap .footer .top { height: 30px; }
+
+.wrap .footer .bottom { height: 60px; }
+
+/*# sourceMappingURL=maps/test.css.map */

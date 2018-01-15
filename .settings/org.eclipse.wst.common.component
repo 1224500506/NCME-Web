@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="zyy_qiantai">
+        <wb-resource deploy-path="/" source-path="/WebRoot" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/auth"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/web"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/model"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/webservice"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/service"/>
+        <property name="java-output-path" value="/zyy_qiantai/WebRoot/WEB-INF/classes"/>
+        <property name="context-root" value="/qiantai"/>
+    </wb-module>
+</project-modules>

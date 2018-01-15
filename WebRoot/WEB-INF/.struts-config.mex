@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/questionManage/questionManage.do" location="423,688" dimension="340,96" />
+  <StrutsActivity path="/questionManage/SearchNotPropQuestion.do" location="2485,688" dimension="342,96" />
+  <StrutsActivity path="/questionManage/swapQuestionLabel.do" location="1037,1694" dimension="325,96" />
+  <StrutsActivity path="/questionManage/updateQuestionState.do" location="0,492" dimension="361,96" />
+  <StrutsActivity path="/questionManage/deleteQuestion.do" location="1460,4523" dimension="314,96" />
+  <StrutsActivity path="/questionManage/importQuestion.do" location="461,492" dimension="333,96" />
+  <StrutsActivity path="/questionManage/importQuestion2.do" location="894,492" dimension="339,96" />
+  <StrutsActivity path="/questionManage/exportQuestion.do" location="3188,4382" dimension="330,96" />
+  <StrutsActivity path="/questionManage/exportQuestionAndProp.do" location="424,4382" dimension="377,96" />
+  <StrutsActivity path="/questionManage/compareQuestion.do" location="1242,3798" dimension="346,96" />
+  <StrutsActivity path="/questionManage/uploadFile.do" location="2383,4664" dimension="277,96" />
+  <StrutsActivity path="/questionManage/viewQuestion.do" location="3210,0" dimension="322,96" />
+  <StrutsActivity path="/questionManage/batchAddQuestionProp.do" location="2484,492" dimension="344,96" />
+  <StrutsActivity path="/questionManage/adSearchQuestion.do" location="1633,4382" dimension="347,96" />
+  <StrutsActivity path="/questionManage/exportProp.do" location="3247,4523" dimension="307,96" />
+  <StrutsActivity path="/material/MaterialManage.do" location="619,980" dimension="353,96" />
+  <StrutsActivity path="/material/MaterialVerify.do" location="1248,980" dimension="353,96" />
+  <StrutsActivity path="/materialManage/downLoadMaterialListFile.do" location="2414,4382" dimension="343,96" />
+  <StrutsActivity path="/propManage/propList.do" location="687,4090" dimension="292,96" />
+  <StrutsActivity path="/propManage/icdList.do" location="1024,4090" dimension="283,96" />
+  <StrutsActivity path="/propManage/propBaseList.do" location="2331,4090" dimension="274,96" />
+  <StrutsActivity path="/propManage/sourceTypeList.do" location="3354,3798" dimension="311,96" />
+  <StrutsActivity path="/propManage/sourceList.do" location="2876,3506" dimension="285,96" />
+  <StrutsActivity path="/propManage/addIcd.do" location="1724,4664" dimension="287,96" />
+  <StrutsActivity path="/propManage/editIcd.do" location="699,4664" dimension="303,96" />
+  <StrutsActivity path="/propManage/delIcd.do" location="2056,4664" dimension="282,96" />
+  <StrutsActivity path="/propManage/showIcdRel.do" location="1352,4090" dimension="281,96" />
+  <StrutsActivity path="/propManage/addProp.do" location="1047,4664" dimension="296,96" />
+  <StrutsActivity path="/propManage/editProp.do" location="2536,4523" dimension="312,96" />
+  <StrutsActivity path="/propManage/delProp.do" location="1388,4664" dimension="291,96" />
+  <StrutsActivity path="/propManage/viewProp.do" location="1100,4523" dimension="315,96" />
+  <StrutsActivity path="/propManage/moveProp.do" location="370,4523" dimension="320,96" />
+  <StrutsActivity path="/propManage/replaceQuestionProp.do" location="0,4382" dimension="379,96" />
+  <StrutsActivity path="/propManage/olemPropList.do" location="2875,688" dimension="321,96" />
+  <StrutsActivity path="/propManage/olemAddProp.do" location="0,4523" dimension="325,96" />
+  <StrutsActivity path="/propManage/editOlemProp.do" location="2802,4382" dimension="341,96" />
+  <StrutsActivity path="/propManage/delOlemProp.do" location="735,4523" dimension="320,96" />
+  <StrutsActivity path="/propManage/olemAddPropList.do" location="1678,4090" dimension="281,96" />
+  <StrutsActivity path="/propManage/olemBasePropList.do" location="2621,3798" dimension="327,96" />
+  <StrutsActivity path="/propManage/olemDelBaseProp.do" location="2025,4382" dimension="344,96" />
+  <StrutsActivity path="/propManage/olemAddBaseProp.do" location="846,4382" dimension="349,96" />
+  <StrutsActivity path="/propManage/importOlemProp.do" location="2873,492" dimension="324,96" />
+  <StrutsActivity path="/system/systemClient.do" location="494,2922" dimension="290,96" />
+  <StrutsActivity path="/system/systemSite.do" location="743,2318" dimension="278,96" />
+  <StrutsActivity path="/system/systemAdminOrgan.do" location="607,2630" dimension="368,96" />
+  <StrutsActivity path="/system/SystemCardTypeSiteOrg.do" location="326,3214" dimension="402,96" />
+  <StrutsActivity path="/system/systemUser.do" location="2165,1010" dimension="282,96" />
+  <StrutsActivity path="/system/systemUserInfImport.do" location="2970,980" dimension="311,96" />
+  <StrutsActivity path="/system/siteExamList.do" location="3245,688" dimension="286,96" />
+  <StrutsActivity path="/system/siteExamSave.do" location="3242,492" dimension="292,96" />
+  <StrutsActivity path="/system/SystemIndustry.do" location="125,3798" dimension="342,96" />
+  <StrutsActivity path="/system/SystemCategory.do" location="2758,2922" dimension="347,96" />
+  <StrutsActivity path="/system/SystemNews.do" location="2416,3214" dimension="328,96" />
+  <StrutsActivity path="/system/SystemIndustryAbility.do" location="2151,2630" dimension="376,96" />
+  <StrutsActivity path="/system/SystemCard.do" location="996,2006" dimension="324,96" />
+  <StrutsActivity path="/system/SystemPostHistory.do" location="702,3798" dimension="360,96" />
+  <StrutsActivity path="/system/SystemCardType.do" location="1114,1382" dimension="350,96" />
+  <StrutsActivity path="/system/SystemBugLog.do" location="1371,3214" dimension="340,96" />
+  <StrutsActivity path="/system/SystemCardOrder.do" location="307,3506" dimension="354,96" />
+  <StrutsActivity path="/system/SystemCardStatus.do" location="1276,3506" dimension="356,96" />
+  <StrutsActivity path="/expert/ExpertGroupManage.do" location="1693,2922" dimension="321,96" />
+  <StrutsActivity path="/expert/ExpertGroupTerm.do" location="2227,3798" dimension="349,96" />
+  <StrutsActivity path="/expert/ExpertSubGroup.do" location="2141,3506" dimension="341,96" />
+  <StrutsActivity path="/expert/ExpertSubGroupMember.do" location="2271,2318" dimension="386,96" />
+  <StrutsActivity path="/expert/ExpertTerm.do" location="2993,3798" dimension="316,96" />
+  <StrutsActivity path="/expert/ExpertManage.do" location="3033,2318" dimension="331,96" />
+  <StrutsActivity path="/caseManage/caseManage.do" location="1915,688" dimension="289,96" />
+  <StrutsActivity path="/caseManage/casePatientSave.do" location="0,4664" dimension="305,96" />
+  <StrutsActivity path="/caseManage/caseSaveCase.do" location="1352,492" dimension="293,96" />
+  <StrutsActivity path="/caseManage/deleteCase.do" location="1745,492" dimension="304,96" />
+  <StrutsActivity path="/caseManage/setCaseState.do" location="2178,4523" dimension="313,96" />
+  <StrutsActivity path="/caseManage/downLoadCaseListFile.do" location="350,4664" dimension="304,96" />
+  <StrutsActivity path="/caseManage/caseEdit1.do" location="1808,3798" dimension="272,96" />
+  <StrutsActivity path="/caseManage/updateCase.do" location="2893,4523" dimension="309,96" />
+  <StrutsActivity path="/caseManage/setCaseListState.do" location="2149,492" dimension="290,96" />
+  <StrutsActivity path="/propManage/getPropListAjax.do" location="1819,4523" dimension="314,96" />
+  <StrutsActivity path="/propManage/regionList.do" location="0,4090" dimension="304,96" />
+  <StrutsActivity path="/propManage/propHospitalList.do" location="2653,4090" dimension="274,96" />
+  <StrutsActivity path="/propManage/hospitalList.do" location="349,4090" dimension="293,96" />
+  <StrutsActivity path="/propManage/majorList.do" location="2004,4090" dimension="280,96" />
+  <StrutsActivity path="/expert/ExpertGroupListAjax.do" location="1240,4382" dimension="348,96" />
+  <StrutsActivity path="token;6" location="3172,4090" dimension="152,81" />
+  <StrutsActivity path="failure;6" location="2972,4090" dimension="155,81" />
+  <StrutsActivity path="/new_page/QuestionManage/examQuestionList.jsp" location="153,884" dimension="301,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examQuestionCheck.jsp" location="554,884" dimension="316,51" />
+  <StrutsActivity path="/page/examNotPropQuestionList.jsp" location="2545,884" dimension="223,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examAddQuestionB1.jsp" location="0,1910" dimension="318,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examAddQuestionA3.jsp" location="418,1910" dimension="319,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examAddQuestionA.jsp" location="837,1910" dimension="313,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examAddQuestionC.jsp" location="1250,1910" dimension="313,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examAddQuestionB.jsp" location="1663,1910" dimension="312,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examAddQuestionD.jsp" location="2075,1910" dimension="313,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examImportQuestion.jsp" location="988,710" dimension="319,51" />
+  <StrutsActivity path="/page/examCompareResult.jsp" location="1172,3994" dimension="193,51" />
+  <StrutsActivity path="/page/examImportQuestion.jsp" location="1465,3994" dimension="196,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examEditQuestionA.jsp" location="0,396" dimension="311,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examEditQuestionB.jsp" location="411,396" dimension="310,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examEditQuestionC.jsp" location="821,396" dimension="311,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examEditQuestionD.jsp" location="1232,396" dimension="311,51" />
+  <StrutsActivity path="/page/examEditNotPropQuestionA.jsp" location="1643,396" dimension="233,51" />
+  <StrutsActivity path="/page/examEditNotPropQuestionC.jsp" location="1976,396" dimension="233,51" />
+  <StrutsActivity path="/page/examEditNotPropQuestionB.jsp" location="2309,396" dimension="232,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examEditQuestionVerifyB1.jsp" location="2641,396" dimension="346,51" />
+  <StrutsActivity path="/page/examEditNotPropQuestionD.jsp" location="3087,396" dimension="233,51" />
+  <StrutsActivity path="/page/examEditNotPropQuestionA3.jsp" location="3420,396" dimension="239,51" />
+  <StrutsActivity path="/page/examEditNotPropQuestionB1.jsp" location="3759,396" dimension="238,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examEditQuestionVerifyA.jsp" location="4097,396" dimension="341,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examEditQuestionB1.jsp" location="4538,396" dimension="316,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examEditQuestionVerifyD.jsp" location="4954,396" dimension="341,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examEditQuestionVerifyB.jsp" location="5395,396" dimension="340,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examEditQuestionA3.jsp" location="5835,396" dimension="317,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examEditQuestionVerifyC.jsp" location="6252,396" dimension="341,51" />
+  <StrutsActivity path="/new_page/QuestionManage/examEditQuestionVerifyA3.jsp" location="6693,396" dimension="347,51" />
+  <StrutsActivity path="/new_page/materialManage/materialEdit.jsp" location="730,1286" dimension="265,51" />
+  <StrutsActivity path="/new_page/materialManage/materialVerify.jsp" location="1461,1286" dimension="275,51" />
+  <StrutsActivity path="/new_page/materialManage/materialList.jsp" location="0,1286" dimension="263,51" />
+  <StrutsActivity path="/new_page/materialManage/materialAdd.jsp" location="363,1286" dimension="267,51" />
+  <StrutsActivity path="/new_page/materialManage/materialInfo.jsp" location="1095,1286" dimension="266,51" />
+  <StrutsActivity path="/new_page/propManage/examPropList.jsp" location="705,4286" dimension="255,51" />
+  <StrutsActivity path="/new_page/propManage/examIcdList.jsp" location="1042,4286" dimension="246,51" />
+  <StrutsActivity path="/new_page/propManage/examBasePropList.jsp" location="2329,4286" dimension="279,51" />
+  <StrutsActivity path="/new_page/propManage/examSourceTypeList.jsp" location="3363,3994" dimension="292,51" />
+  <StrutsActivity path="/new_page/propManage/examSourceList.jsp" location="2701,3702" dimension="266,51" />
+  <StrutsActivity path="/new_page/propManage/examShowSrcRel.jsp" location="3067,3702" dimension="273,51" />
+  <StrutsActivity path="/new_page/propManage/examShowIcdRel.jsp" location="1356,4286" dimension="273,51" />
+  <StrutsActivity path="/page/propManage/examOlemPropList.jsp" location="2907,884" dimension="257,51" />
+  <StrutsActivity path="/page/propManage/examAddPropList.jsp" location="1693,4286" dimension="250,51" />
+  <StrutsActivity path="/page/propManage/examOlemBasePropList.jsp" location="2644,3994" dimension="281,51" />
+  <StrutsActivity path="/page/systemClient/systemClientEdit.jsp" location="0,3118" dimension="245,51" />
+  <StrutsActivity path="/page/systemClient/systemClientList.jsp" location="345,3118" dimension="243,51" />
+  <StrutsActivity path="/page/systemClient/systemClientView.jsp" location="688,3118" dimension="250,51" />
+  <StrutsActivity path="/page/systemClient/systemClientAdd.jsp" location="1038,3118" dimension="247,51" />
+  <StrutsActivity path="/page/systemSite/siteExam.jsp" location="0,2534" dimension="191,51" />
+  <StrutsActivity path="/page/systemSite/systemSiteEdit.jsp" location="291,2534" dimension="221,51" />
+  <StrutsActivity path="/page/systemSite/systemSiteList.jsp" location="612,2534" dimension="219,51" />
+  <StrutsActivity path="/page/systemSite/systemSiteView.jsp" location="931,2534" dimension="226,51" />
+  <StrutsActivity path="/page/systemSite/systemSiteAdd.jsp" location="1257,2534" dimension="223,51" />
+  <StrutsActivity path="/page/systemSite/systemSiteExam.jsp" location="1580,2534" dimension="229,51" />
+  <StrutsActivity path="/page/systemAdminOrgan/systemAdminOrganEdit.jsp" location="0,2826" dimension="321,51" />
+  <StrutsActivity path="/page/systemAdminOrgan/systemAdminOrganList.jsp" location="421,2826" dimension="319,51" />
+  <StrutsActivity path="/page/systemAdminOrgan/systemAdminOrganView.jsp" location="840,2826" dimension="326,51" />
+  <StrutsActivity path="/page/systemAdminOrgan/systemAdminOrganSubList.jsp" location="1266,2826" dimension="339,51" />
+  <StrutsActivity path="/page/systemSite/authorized-paycardorgan-list.jsp" location="0,3410" dimension="299,51" />
+  <StrutsActivity path="/page/systemSite/authorized-organ-list.jsp" location="399,3410" dimension="257,51" />
+  <StrutsActivity path="/page/systemSite/authorized-site-list.jsp" location="756,3410" dimension="244,51" />
+  <StrutsActivity path="/new_page/SystemUserManage/systemUserList.jsp" location="1781,1206" dimension="298,51" />
+  <StrutsActivity path="/new_page/systemUser/systemUserList.jsp" location="2179,1206" dimension="254,51" />
+  <StrutsActivity path="/page/systemUser/systemUserView.jsp" location="2533,1206" dimension="234,51" />
+  <StrutsActivity path="/new_page/systemUser/systemUserDownLoad.jsp" location="2812,1191" dimension="293,51" />
+  <StrutsActivity path="/userManage/getUsers.do" location="3205,1176" dimension="177,81" />
+  <StrutsActivity path="/page/systemSite/siteExamList.jsp" location="3284,884" dimension="209,51" />
+  <StrutsActivity path="/page/systemProp/systemIndustryEdit.jsp" location="0,3994" dimension="251,51" />
+  <StrutsActivity path="/page/systemProp/systemIndustry.jsp" location="351,3994" dimension="231,51" />
+  <StrutsActivity path="/page/systemCategoryNews/categoryUpdate.jsp" location="2411,3118" dimension="287,51" />
+  <StrutsActivity path="/page/systemCategoryNews/categoryList.jsp" location="2798,3118" dimension="267,51" />
+  <StrutsActivity path="/page/systemCategoryNews/categoryAdd.jsp" location="3165,3118" dimension="271,51" />
+  <StrutsActivity path="/page/systemCategoryNews/newsUpdate.jsp" location="2088,3410" dimension="268,51" />
+  <StrutsActivity path="/page/systemCategoryNews/newsList.jsp" location="2456,3410" dimension="248,51" />
+  <StrutsActivity path="/page/systemCategoryNews/newsAdd.jsp" location="2804,3410" dimension="252,51" />
+  <StrutsActivity path="/page/systemProp/systemAbilityCourse.jsp" location="1650,2826" dimension="259,51" />
+  <StrutsActivity path="/page/systemProp/systemIndustryAbilityEdit.jsp" location="2009,2826" dimension="285,51" />
+  <StrutsActivity path="/page/systemProp/systemIndustryAbility.jsp" location="2394,2826" dimension="265,51" />
+  <StrutsActivity path="/page/systemProp/studyCourse.jsp" location="2759,2826" dimension="217,51" />
+  <StrutsActivity path="/page/systemCard/sub/cardTypeList.jsp" location="0,2222" dimension="242,51" />
+  <StrutsActivity path="/page/systemCard/systemCreateCardList.jsp" location="342,2222" dimension="265,51" />
+  <StrutsActivity path="/page/systemCard/systemCardEdit.jsp" location="707,2222" dimension="233,51" />
+  <StrutsActivity path="/page/systemCard/sub/createCards.jsp" location="1040,2222" dimension="237,51" />
+  <StrutsActivity path="/page/systemCard/sub/selectCardType.jsp" location="1377,2222" dimension="256,51" />
+  <StrutsActivity path="/page/systemCard/systemCard.jsp" location="1733,2222" dimension="213,51" />
+  <StrutsActivity path="/page/systemCard/systemCardAllot.jsp" location="2046,2222" dimension="238,51" />
+  <StrutsActivity path="/page/systemUser/postUpdate.jsp" location="627,3994" dimension="210,51" />
+  <StrutsActivity path="/page/systemUser/postList.jsp" location="937,3994" dimension="190,51" />
+  <StrutsActivity path="/page/systemCard/sub/authorized-not-course-list.jsp" location="0,1598" dimension="314,51" />
+  <StrutsActivity path="/page/systemCard/sub/authorized-not-org-list.jsp" location="414,1598" dimension="297,51" />
+  <StrutsActivity path="/page/systemCard/systemCardTypeEdit.jsp" location="811,1598" dimension="259,51" />
+  <StrutsActivity path="/page/systemCard/systemCardType.jsp" location="1170,1598" dimension="239,51" />
+  <StrutsActivity path="/page/systemCard/systemCardTypeView.jsp" location="1509,1598" dimension="264,51" />
+  <StrutsActivity path="/page/systemCard/sub/authorized-course-list.jsp" location="1873,1598" dimension="291,51" />
+  <StrutsActivity path="/page/systemCard/sub/authorized-org-list.jsp" location="2264,1598" dimension="274,51" />
+  <StrutsActivity path="/page/systemBugLog/systemBugLogEidt.jsp" location="1045,3410" dimension="265,51" />
+  <StrutsActivity path="/page/systemBugLog/systemBugLogList.jsp" location="1410,3410" dimension="263,51" />
+  <StrutsActivity path="/page/systemBugLog/systemBugLogView.jsp" location="1773,3410" dimension="270,51" />
+  <StrutsActivity path="/page/systemCard/systemCardOrderEdit.jsp" location="0,3702" dimension="263,51" />
+  <StrutsActivity path="/page/systemCard/systemCardOrder.jsp" location="363,3702" dimension="243,51" />
+  <StrutsActivity path="/page/systemCard/systemOrderCard.jsp" location="706,3702" dimension="243,51" />
+  <StrutsActivity path="/page/systemCard/sub/userBindList.jsp" location="994,3702" dimension="239,51" />
+  <StrutsActivity path="/page/systemCard/systemCardDetail.jsp" location="1333,3702" dimension="243,51" />
+  <StrutsActivity path="/page/systemCard/systemCardStatus.jsp" location="1676,3702" dimension="245,51" />
+  <StrutsActivity path="/new_page/expertManage/expertGroupDetail.jsp" location="1330,3118" dimension="286,51" />
+  <StrutsActivity path="/new_page/expertManage/expertGroupEdit.jsp" location="1716,3118" dimension="276,51" />
+  <StrutsActivity path="/new_page/expertManage/expertGroupList.jsp" location="2092,3118" dimension="274,51" />
+  <StrutsActivity path="/new_page/expertManage/expertGroupTerm.jsp" location="2259,3994" dimension="284,51" />
+  <StrutsActivity path="/new_page/expertManage/expertSubGroupEdit.jsp" location="1966,3702" dimension="296,51" />
+  <StrutsActivity path="/new_page/expertManage/expertSubGroupList.jsp" location="2362,3702" dimension="294,51" />
+  <StrutsActivity path="/new_page/expertManage/expertSubGroupMemberEdit.jsp" location="1854,2514" dimension="341,51" />
+  <StrutsActivity path="/new_page/expertManage/expertSubGroupMemberList.jsp" location="2295,2514" dimension="339,51" />
+  <StrutsActivity path="/new_page/expertManage/expertEdit.jsp" location="2734,2514" dimension="243,51" />
+  <StrutsActivity path="/new_page/expertManage/expertTermList.jsp" location="3016,3994" dimension="269,51" />
+  <StrutsActivity path="/new_page/expertManage/expertInfo.jsp" location="3077,2514" dimension="244,51" />
+  <StrutsActivity path="/new_page/expertManage/expertList.jsp" location="3421,2514" dimension="241,51" />
+  <StrutsActivity path="/new_page/case/caseManage.jsp" location="1957,884" dimension="205,51" />
+  <StrutsActivity path="/new_page/case/caseEdit1.jsp" location="1706,3994" dimension="188,51" />
+  <StrutsActivity path="/new_page/case/caseEdit2.jsp" location="1994,3994" dimension="188,51" />
+  <StrutsActivity path="/new_page/propManage/examRegionList.jsp" location="18,4286" dimension="267,51" />
+  <StrutsActivity path="/new_page/propManage/propHospitalList.jsp" location="2654,4286" dimension="271,51" />
+  <StrutsActivity path="/new_page/propManage/hospitalList.jsp" location="373,4286" dimension="244,51" />
+  <StrutsActivity path="/new_page/propManage/majorList.jsp" location="2027,4286" dimension="233,51" />
+  <StrutsActivity path="/commons/token.jsp" location="3177,4271" dimension="142,51" />
+  <StrutsActivity path="/commons/failure.jsp" location="2977,4271" dimension="145,51" />
+  <StrutsTransition id="/questionManage/viewQuestion.do,VIEW_C,/new_page/QuestionManage/examEditQuestionVerifyC.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3505,96" />
+      <AbsolutePoint location="3505,156" />
+      <AbsolutePoint location="6422,156" />
+      <AbsolutePoint location="6422,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemBugLog.do,view,/page/systemBugLog/systemBugLogView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1654,3310" />
+      <AbsolutePoint location="1654,3360" />
+      <AbsolutePoint location="1908,3360" />
+      <AbsolutePoint location="1908,3410" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemPostHistory.do,list,/page/systemUser/postList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="972,3894" />
+      <AbsolutePoint location="972,3944" />
+      <AbsolutePoint location="1032,3944" />
+      <AbsolutePoint location="1032,3994" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/material/MaterialManage.do,info,/new_page/materialManage/materialInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="866,1076" />
+      <AbsolutePoint location="866,1196" />
+      <AbsolutePoint location="1161,1196" />
+      <AbsolutePoint location="1161,1286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemIndustry.do,list,/page/systemProp/systemIndustry.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="381,3894" />
+      <AbsolutePoint location="381,3944" />
+      <AbsolutePoint location="466,3944" />
+      <AbsolutePoint location="466,3994" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/material/MaterialVerify.do,main2,/new_page/materialManage/materialVerify.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1469,1076" />
+      <AbsolutePoint location="1469,1136" />
+      <AbsolutePoint location="1598,1136" />
+      <AbsolutePoint location="1598,1286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemUserInfImport.do,success,/userManage/getUsers.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3203,1076" />
+      <AbsolutePoint location="3203,1126" />
+      <AbsolutePoint location="3293,1126" />
+      <AbsolutePoint location="3293,1176" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expert/ExpertTerm.do,SUCCESS,/new_page/expertManage/expertTermList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3151,3894" />
+      <AbsolutePoint location="3151,3994" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,EDIT_D,/new_page/QuestionManage/examEditQuestionD.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3273,96" />
+      <AbsolutePoint location="3273,216" />
+      <AbsolutePoint location="1387,216" />
+      <AbsolutePoint location="1387,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemSite.do,siteExam,/page/systemSite/siteExam.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="766,2414" />
+      <AbsolutePoint location="766,2444" />
+      <AbsolutePoint location="95,2444" />
+      <AbsolutePoint location="95,2534" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCardType.do,authorized-course-list,/page/systemCard/sub/authorized-course-list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1389,1478" />
+      <AbsolutePoint location="1389,1538" />
+      <AbsolutePoint location="2018,1538" />
+      <AbsolutePoint location="2018,1598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemSite.do,exam,/page/systemSite/systemSiteExam.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="998,2414" />
+      <AbsolutePoint location="998,2444" />
+      <AbsolutePoint location="1694,2444" />
+      <AbsolutePoint location="1694,2534" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemNews.do,add,/page/systemCategoryNews/newsAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2689,3310" />
+      <AbsolutePoint location="2689,3360" />
+      <AbsolutePoint location="2930,3360" />
+      <AbsolutePoint location="2930,3410" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/compareQuestion.do,FAILURE,/page/examImportQuestion.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1502,3894" />
+      <AbsolutePoint location="1502,3944" />
+      <AbsolutePoint location="1563,3944" />
+      <AbsolutePoint location="1563,3994" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expert/ExpertSubGroupMember.do,edit,/new_page/expertManage/expertSubGroupMemberEdit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2335,2414" />
+      <AbsolutePoint location="2335,2464" />
+      <AbsolutePoint location="2024,2464" />
+      <AbsolutePoint location="2024,2514" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/propManage/olemBasePropList.do,SUCCESS,/page/propManage/examOlemBasePropList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2784,3894" />
+      <AbsolutePoint location="2784,3994" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="failure;6,null,/commons/failure.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3049,4171" />
+      <AbsolutePoint location="3049,4271" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/propManage/sourceTypeList.do,SUCCESS,/new_page/propManage/examSourceTypeList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3509,3894" />
+      <AbsolutePoint location="3509,3994" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/swapQuestionLabel.do,questionC,/new_page/QuestionManage/examAddQuestionC.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1227,1790" />
+      <AbsolutePoint location="1227,1880" />
+      <AbsolutePoint location="1406,1880" />
+      <AbsolutePoint location="1406,1910" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCardType.do,edit,/page/systemCard/systemCardTypeEdit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1239,1478" />
+      <AbsolutePoint location="1239,1568" />
+      <AbsolutePoint location="940,1568" />
+      <AbsolutePoint location="940,1598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/material/MaterialManage.do,add,/new_page/materialManage/materialAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="725,1076" />
+      <AbsolutePoint location="725,1136" />
+      <AbsolutePoint location="496,1136" />
+      <AbsolutePoint location="496,1286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemBugLog.do,list,/page/systemBugLog/systemBugLogList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1541,3310" />
+      <AbsolutePoint location="1541,3410" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expert/ExpertManage.do,list,/new_page/expertManage/expertList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3309,2414" />
+      <AbsolutePoint location="3309,2464" />
+      <AbsolutePoint location="3541,2464" />
+      <AbsolutePoint location="3541,2514" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemPostHistory.do,update,/page/systemUser/postUpdate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="792,3894" />
+      <AbsolutePoint location="792,3944" />
+      <AbsolutePoint location="732,3944" />
+      <AbsolutePoint location="732,3994" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCardStatus.do,viewDetail,/page/systemCard/systemCardDetail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1454,3602" />
+      <AbsolutePoint location="1454,3702" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/swapQuestionLabel.do,questionA,/new_page/QuestionManage/examAddQuestionA.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1172,1790" />
+      <AbsolutePoint location="1172,1880" />
+      <AbsolutePoint location="993,1880" />
+      <AbsolutePoint location="993,1910" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/propManage/majorList.do,SUCCESS,/new_page/propManage/majorList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2144,4186" />
+      <AbsolutePoint location="2144,4286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemUser.do,view,/page/systemUser/systemUserView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2411,1106" />
+      <AbsolutePoint location="2411,1156" />
+      <AbsolutePoint location="2650,1156" />
+      <AbsolutePoint location="2650,1206" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expert/ExpertManage.do,detail,/new_page/expertManage/expertInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3199,2414" />
+      <AbsolutePoint location="3199,2514" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/propManage/regionList.do,SUCCESS,/new_page/propManage/examRegionList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="152,4186" />
+      <AbsolutePoint location="152,4286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/caseManage/caseSaveCase.do,success,/caseManage/caseManage.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1499,588" />
+      <AbsolutePoint location="1499,653" />
+      <AbsolutePoint location="1951,653" />
+      <AbsolutePoint location="1951,688" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expert/ExpertSubGroupMember.do,list,/new_page/expertManage/expertSubGroupMemberList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2464,2414" />
+      <AbsolutePoint location="2464,2514" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemNews.do,list,/page/systemCategoryNews/newsList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2580,3310" />
+      <AbsolutePoint location="2580,3410" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/caseManage/caseEdit1.do,edit1,/new_page/case/caseEdit1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1876,3894" />
+      <AbsolutePoint location="1876,3944" />
+      <AbsolutePoint location="1800,3944" />
+      <AbsolutePoint location="1800,3994" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,VIEW_B,/new_page/QuestionManage/examEditQuestionVerifyB.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3469,96" />
+      <AbsolutePoint location="3469,216" />
+      <AbsolutePoint location="5565,216" />
+      <AbsolutePoint location="5565,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/questionManage.do,SUCCESS,/new_page/QuestionManage/examQuestionList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="508,784" />
+      <AbsolutePoint location="508,834" />
+      <AbsolutePoint location="304,834" />
+      <AbsolutePoint location="304,884" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCard.do,selectCardType,/page/systemCard/sub/selectCardType.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1204,2102" />
+      <AbsolutePoint location="1204,2192" />
+      <AbsolutePoint location="1505,2192" />
+      <AbsolutePoint location="1505,2222" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCard.do,edit,/page/systemCard/systemCardEdit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1112,2102" />
+      <AbsolutePoint location="1112,2192" />
+      <AbsolutePoint location="823,2192" />
+      <AbsolutePoint location="823,2222" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCardStatus.do,list,/page/systemCard/systemCardStatus.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1573,3602" />
+      <AbsolutePoint location="1573,3652" />
+      <AbsolutePoint location="1798,3652" />
+      <AbsolutePoint location="1798,3702" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/caseManage/caseManage.do,success,/new_page/case/caseManage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2060,784" />
+      <AbsolutePoint location="2060,884" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,VIEW_A,/new_page/QuestionManage/examEditQuestionVerifyA.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3416,96" />
+      <AbsolutePoint location="3416,306" />
+      <AbsolutePoint location="4267,306" />
+      <AbsolutePoint location="4267,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCard.do,allotList,/page/systemCard/systemCardAllot.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1297,2102" />
+      <AbsolutePoint location="1297,2132" />
+      <AbsolutePoint location="2165,2132" />
+      <AbsolutePoint location="2165,2222" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expert/ExpertManage.do,edit,/new_page/expertManage/expertEdit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3088,2414" />
+      <AbsolutePoint location="3088,2464" />
+      <AbsolutePoint location="2916,2464" />
+      <AbsolutePoint location="2916,2514" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCardType.do,authorized-org-list,/page/systemCard/sub/authorized-org-list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1439,1478" />
+      <AbsolutePoint location="1439,1508" />
+      <AbsolutePoint location="2401,1508" />
+      <AbsolutePoint location="2401,1598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemSite.do,list,/page/systemSite/systemSiteList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="859,2414" />
+      <AbsolutePoint location="859,2504" />
+      <AbsolutePoint location="721,2504" />
+      <AbsolutePoint location="721,2534" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/material/MaterialVerify.do,detail,/new_page/materialManage/materialInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1381,1076" />
+      <AbsolutePoint location="1381,1256" />
+      <AbsolutePoint location="1294,1256" />
+      <AbsolutePoint location="1294,1286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/material/MaterialManage.do,list,/new_page/materialManage/materialList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="655,1076" />
+      <AbsolutePoint location="655,1106" />
+      <AbsolutePoint location="131,1106" />
+      <AbsolutePoint location="131,1286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemAdminOrgan.do,edit,/page/systemAdminOrgan/systemAdminOrganEdit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="653,2726" />
+      <AbsolutePoint location="653,2761" />
+      <AbsolutePoint location="160,2761" />
+      <AbsolutePoint location="160,2826" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemNews.do,update,/page/systemCategoryNews/newsUpdate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2470,3310" />
+      <AbsolutePoint location="2470,3360" />
+      <AbsolutePoint location="2222,3360" />
+      <AbsolutePoint location="2222,3410" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/propManage/propHospitalList.do,SUCCESS,/new_page/propManage/propHospitalList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2790,4186" />
+      <AbsolutePoint location="2790,4286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expert/ExpertSubGroupMember.do,add,/new_page/expertManage/expertEdit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2593,2414" />
+      <AbsolutePoint location="2593,2464" />
+      <AbsolutePoint location="2794,2464" />
+      <AbsolutePoint location="2794,2514" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCardStatus.do,userBindList,/page/systemCard/sub/userBindList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1335,3602" />
+      <AbsolutePoint location="1335,3652" />
+      <AbsolutePoint location="1113,3652" />
+      <AbsolutePoint location="1113,3702" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemBugLog.do,edit,/page/systemBugLog/systemBugLogEidt.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1428,3310" />
+      <AbsolutePoint location="1428,3360" />
+      <AbsolutePoint location="1177,3360" />
+      <AbsolutePoint location="1177,3410" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCardTypeSiteOrg.do,authorized-paycardorgan-list,/page/systemSite/authorized-paycardorgan-list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="393,3310" />
+      <AbsolutePoint location="393,3360" />
+      <AbsolutePoint location="149,3360" />
+      <AbsolutePoint location="149,3410" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/updateQuestionState.do,SUCCESS,/questionManage/questionManage.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="180,588" />
+      <AbsolutePoint location="180,638" />
+      <AbsolutePoint location="480,638" />
+      <AbsolutePoint location="480,688" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,NOT_PROP_D,/page/examEditNotPropQuestionD.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3362,96" />
+      <AbsolutePoint location="3362,366" />
+      <AbsolutePoint location="3203,366" />
+      <AbsolutePoint location="3203,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemIndustryAbility.do,otherCourseList,/page/systemProp/studyCourse.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2480,2726" />
+      <AbsolutePoint location="2480,2761" />
+      <AbsolutePoint location="2867,2761" />
+      <AbsolutePoint location="2867,2826" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,EDIT_A3,/new_page/QuestionManage/examEditQuestionA3.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3487,96" />
+      <AbsolutePoint location="3487,186" />
+      <AbsolutePoint location="5993,186" />
+      <AbsolutePoint location="5993,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemAdminOrgan.do,subList,/page/systemAdminOrgan/systemAdminOrganSubList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="929,2726" />
+      <AbsolutePoint location="929,2761" />
+      <AbsolutePoint location="1435,2761" />
+      <AbsolutePoint location="1435,2826" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCard.do,cardTypeList,/page/systemCard/sub/cardTypeList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1019,2102" />
+      <AbsolutePoint location="1019,2132" />
+      <AbsolutePoint location="121,2132" />
+      <AbsolutePoint location="121,2222" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/propManage/propList.do,SUCCESS,/new_page/propManage/examPropList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="833,4186" />
+      <AbsolutePoint location="833,4286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/caseManage/setCaseListState.do,manage,/caseManage/caseManage.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2222,588" />
+      <AbsolutePoint location="2222,623" />
+      <AbsolutePoint location="2096,623" />
+      <AbsolutePoint location="2096,688" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="token;6,null,/commons/token.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3248,4171" />
+      <AbsolutePoint location="3248,4271" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCard.do,list,/page/systemCard/systemCard.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1251,2102" />
+      <AbsolutePoint location="1251,2162" />
+      <AbsolutePoint location="1839,2162" />
+      <AbsolutePoint location="1839,2222" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expert/ExpertSubGroup.do,edit,/new_page/expertManage/expertSubGroupEdit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2226,3602" />
+      <AbsolutePoint location="2226,3652" />
+      <AbsolutePoint location="2114,3652" />
+      <AbsolutePoint location="2114,3702" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/SearchNotPropQuestion.do,SUCCESS,/page/examNotPropQuestionList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2656,784" />
+      <AbsolutePoint location="2656,884" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expert/ExpertGroupManage.do,list,/new_page/expertManage/expertGroupList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1961,3018" />
+      <AbsolutePoint location="1961,3068" />
+      <AbsolutePoint location="2229,3068" />
+      <AbsolutePoint location="2229,3118" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/propManage/sourceList.do,SHOWREL,/new_page/propManage/examShowSrcRel.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3090,3602" />
+      <AbsolutePoint location="3090,3652" />
+      <AbsolutePoint location="3203,3652" />
+      <AbsolutePoint location="3203,3702" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/caseManage/setCaseListState.do,manage1,/caseManage/caseManage.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2367,588" />
+      <AbsolutePoint location="2367,653" />
+      <AbsolutePoint location="2168,653" />
+      <AbsolutePoint location="2168,688" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCardType.do,view,/page/systemCard/systemCardTypeView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1339,1478" />
+      <AbsolutePoint location="1339,1568" />
+      <AbsolutePoint location="1641,1568" />
+      <AbsolutePoint location="1641,1598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/material/MaterialVerify.do,list,/new_page/materialManage/materialVerify.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1557,1076" />
+      <AbsolutePoint location="1557,1106" />
+      <AbsolutePoint location="1690,1106" />
+      <AbsolutePoint location="1690,1286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/propManage/olemPropList.do,SUCCESS,/page/propManage/examOlemPropList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3035,784" />
+      <AbsolutePoint location="3035,884" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCardTypeSiteOrg.do,authorized-site-list,/page/systemSite/authorized-site-list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="661,3310" />
+      <AbsolutePoint location="661,3360" />
+      <AbsolutePoint location="878,3360" />
+      <AbsolutePoint location="878,3410" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCardType.do,list,/page/systemCard/systemCardType.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1289,1478" />
+      <AbsolutePoint location="1289,1598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemIndustry.do,edit,/page/systemProp/systemIndustryEdit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="210,3894" />
+      <AbsolutePoint location="210,3944" />
+      <AbsolutePoint location="125,3944" />
+      <AbsolutePoint location="125,3994" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/siteExamSave.do,SUCCESS,/system/siteExamList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3388,588" />
+      <AbsolutePoint location="3388,688" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,EDIT_C,/new_page/QuestionManage/examEditQuestionC.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3255,96" />
+      <AbsolutePoint location="3255,186" />
+      <AbsolutePoint location="976,186" />
+      <AbsolutePoint location="976,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemClient.do,add,/page/systemClient/systemClientAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="748,3018" />
+      <AbsolutePoint location="748,3053" />
+      <AbsolutePoint location="1161,3053" />
+      <AbsolutePoint location="1161,3118" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemIndustryAbility.do,edit,/page/systemProp/systemIndustryAbilityEdit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2292,2726" />
+      <AbsolutePoint location="2292,2791" />
+      <AbsolutePoint location="2151,2791" />
+      <AbsolutePoint location="2151,2826" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,VIEW_D,/new_page/QuestionManage/examEditQuestionVerifyD.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3452,96" />
+      <AbsolutePoint location="3452,246" />
+      <AbsolutePoint location="5124,246" />
+      <AbsolutePoint location="5124,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/caseManage/caseEdit1.do,edit2,/new_page/case/caseEdit2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2012,3894" />
+      <AbsolutePoint location="2012,3944" />
+      <AbsolutePoint location="2088,3944" />
+      <AbsolutePoint location="2088,3994" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/material/MaterialManage.do,main2,/new_page/materialManage/materialVerify.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="937,1076" />
+      <AbsolutePoint location="937,1166" />
+      <AbsolutePoint location="1506,1166" />
+      <AbsolutePoint location="1506,1286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/importQuestion2.do,SUCCESS,/questionManage/questionManage.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="978,588" />
+      <AbsolutePoint location="978,638" />
+      <AbsolutePoint location="706,638" />
+      <AbsolutePoint location="706,688" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemClient.do,edit,/page/systemClient/systemClientEdit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="531,3018" />
+      <AbsolutePoint location="531,3053" />
+      <AbsolutePoint location="122,3053" />
+      <AbsolutePoint location="122,3118" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/propManage/olemAddPropList.do,SUCCESS,/page/propManage/examAddPropList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1818,4186" />
+      <AbsolutePoint location="1818,4286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/propManage/importOlemProp.do,SUCCESS,/propManage/olemPropList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3035,588" />
+      <AbsolutePoint location="3035,688" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCardTypeSiteOrg.do,authorized-organ-list,/page/systemSite/authorized-organ-list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="527,3310" />
+      <AbsolutePoint location="527,3410" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCard.do,createCardList,/page/systemCard/systemCreateCardList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1065,2102" />
+      <AbsolutePoint location="1065,2162" />
+      <AbsolutePoint location="474,2162" />
+      <AbsolutePoint location="474,2222" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCardType.do,authorized-not-course-list,/page/systemCard/sub/authorized-not-course-list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1139,1478" />
+      <AbsolutePoint location="1139,1508" />
+      <AbsolutePoint location="157,1508" />
+      <AbsolutePoint location="157,1598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,NOT_PROP_A,/page/examEditNotPropQuestionA.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3291,96" />
+      <AbsolutePoint location="3291,246" />
+      <AbsolutePoint location="1759,246" />
+      <AbsolutePoint location="1759,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemSite.do,view,/page/systemSite/systemSiteView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="905,2414" />
+      <AbsolutePoint location="905,2504" />
+      <AbsolutePoint location="1044,2504" />
+      <AbsolutePoint location="1044,2534" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemUser.do,edit,/new_page/SystemUserManage/systemUserList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2200,1106" />
+      <AbsolutePoint location="2200,1156" />
+      <AbsolutePoint location="1930,1156" />
+      <AbsolutePoint location="1930,1206" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expert/ExpertSubGroup.do,list,/new_page/expertManage/expertSubGroupList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2396,3602" />
+      <AbsolutePoint location="2396,3652" />
+      <AbsolutePoint location="2509,3652" />
+      <AbsolutePoint location="2509,3702" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCardOrder.do,edit,/page/systemCard/systemCardOrderEdit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="366,3602" />
+      <AbsolutePoint location="366,3652" />
+      <AbsolutePoint location="131,3652" />
+      <AbsolutePoint location="131,3702" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemAdminOrgan.do,list,/page/systemAdminOrgan/systemAdminOrganList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="745,2726" />
+      <AbsolutePoint location="745,2791" />
+      <AbsolutePoint location="580,2791" />
+      <AbsolutePoint location="580,2826" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/swapQuestionLabel.do,questionB1,/new_page/QuestionManage/examAddQuestionB1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1064,1790" />
+      <AbsolutePoint location="1064,1820" />
+      <AbsolutePoint location="159,1820" />
+      <AbsolutePoint location="159,1910" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCardType.do,authorized-not-org-list,/page/systemCard/sub/authorized-not-org-list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1189,1478" />
+      <AbsolutePoint location="1189,1538" />
+      <AbsolutePoint location="562,1538" />
+      <AbsolutePoint location="562,1598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCard.do,createCards,/page/systemCard/sub/createCards.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1158,2102" />
+      <AbsolutePoint location="1158,2222" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,VIEW_A3,/new_page/QuestionManage/examEditQuestionVerifyA3.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3523,96" />
+      <AbsolutePoint location="3523,126" />
+      <AbsolutePoint location="6866,126" />
+      <AbsolutePoint location="6866,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,NOT_PROP_B,/page/examEditNotPropQuestionB.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3326,96" />
+      <AbsolutePoint location="3326,306" />
+      <AbsolutePoint location="2425,306" />
+      <AbsolutePoint location="2425,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemSite.do,add,/page/systemSite/systemSiteAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="952,2414" />
+      <AbsolutePoint location="952,2474" />
+      <AbsolutePoint location="1368,2474" />
+      <AbsolutePoint location="1368,2534" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/propManage/propBaseList.do,SUCCESS,/new_page/propManage/examBasePropList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2468,4186" />
+      <AbsolutePoint location="2468,4286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/swapQuestionLabel.do,questionB,/new_page/QuestionManage/examAddQuestionB.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1281,1790" />
+      <AbsolutePoint location="1281,1850" />
+      <AbsolutePoint location="1819,1850" />
+      <AbsolutePoint location="1819,1910" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/propManage/sourceList.do,SUCCESS,/new_page/propManage/examSourceList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2947,3602" />
+      <AbsolutePoint location="2947,3652" />
+      <AbsolutePoint location="2834,3652" />
+      <AbsolutePoint location="2834,3702" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemIndustryAbility.do,abilityCourseList,/page/systemProp/systemAbilityCourse.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2198,2726" />
+      <AbsolutePoint location="2198,2761" />
+      <AbsolutePoint location="1779,2761" />
+      <AbsolutePoint location="1779,2826" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/questionManage.do,main2,/new_page/QuestionManage/examQuestionCheck.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="678,784" />
+      <AbsolutePoint location="678,834" />
+      <AbsolutePoint location="712,834" />
+      <AbsolutePoint location="712,884" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCategory.do,update,/page/systemCategoryNews/categoryUpdate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2815,3018" />
+      <AbsolutePoint location="2815,3068" />
+      <AbsolutePoint location="2554,3068" />
+      <AbsolutePoint location="2554,3118" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCardOrder.do,orderCardList,/page/systemCard/systemOrderCard.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="602,3602" />
+      <AbsolutePoint location="602,3652" />
+      <AbsolutePoint location="827,3652" />
+      <AbsolutePoint location="827,3702" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemUserInfImport.do,FAILURE,/new_page/systemUser/systemUserDownLoad.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3048,1076" />
+      <AbsolutePoint location="3048,1126" />
+      <AbsolutePoint location="2958,1126" />
+      <AbsolutePoint location="2958,1191" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/batchAddQuestionProp.do,SUCCESS,/questionManage/SearchNotPropQuestion.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2656,588" />
+      <AbsolutePoint location="2656,688" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemClient.do,list,/page/systemClient/systemClientList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="603,3018" />
+      <AbsolutePoint location="603,3083" />
+      <AbsolutePoint location="466,3083" />
+      <AbsolutePoint location="466,3118" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,VIEW_B1,/new_page/QuestionManage/examEditQuestionVerifyB1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3344,96" />
+      <AbsolutePoint location="3344,336" />
+      <AbsolutePoint location="2814,336" />
+      <AbsolutePoint location="2814,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expert/ExpertGroupManage.do,edit,/new_page/expertManage/expertGroupEdit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1854,3018" />
+      <AbsolutePoint location="1854,3118" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/importQuestion2.do,FAILURE,/new_page/QuestionManage/examImportQuestion.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1148,588" />
+      <AbsolutePoint location="1148,710" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,NOT_PROP_A3,/page/examEditNotPropQuestionA3.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3380,96" />
+      <AbsolutePoint location="3380,366" />
+      <AbsolutePoint location="3539,366" />
+      <AbsolutePoint location="3539,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expert/ExpertGroupManage.do,detail,/new_page/expertManage/expertGroupDetail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1747,3018" />
+      <AbsolutePoint location="1747,3068" />
+      <AbsolutePoint location="1473,3068" />
+      <AbsolutePoint location="1473,3118" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/material/MaterialManage.do,detail,/new_page/materialManage/materialEdit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="796,1076" />
+      <AbsolutePoint location="796,1286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,NOT_PROP_B1,/page/examEditNotPropQuestionB1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3398,96" />
+      <AbsolutePoint location="3398,336" />
+      <AbsolutePoint location="3878,336" />
+      <AbsolutePoint location="3878,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemUser.do,update,/system/systemUser.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2306,1010" />
+      <AbsolutePoint location="2306,980" />
+      <AbsolutePoint location="2135,980" />
+      <AbsolutePoint location="2135,1058" />
+      <AbsolutePoint location="2165,1058" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,EDIT_A,/new_page/QuestionManage/examEditQuestionA.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3219,96" />
+      <AbsolutePoint location="3219,126" />
+      <AbsolutePoint location="155,126" />
+      <AbsolutePoint location="155,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,EDIT_B,/new_page/QuestionManage/examEditQuestionB.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3237,96" />
+      <AbsolutePoint location="3237,156" />
+      <AbsolutePoint location="566,156" />
+      <AbsolutePoint location="566,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemUser.do,list,/new_page/systemUser/systemUserList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2270,1106" />
+      <AbsolutePoint location="2270,1156" />
+      <AbsolutePoint location="2242,1156" />
+      <AbsolutePoint location="2242,1206" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/siteExamList.do,SUCCESS,/page/systemSite/siteExamList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3388,784" />
+      <AbsolutePoint location="3388,884" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemUser.do,add,/new_page/systemUser/systemUserList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2341,1106" />
+      <AbsolutePoint location="2341,1156" />
+      <AbsolutePoint location="2369,1156" />
+      <AbsolutePoint location="2369,1206" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/propManage/showIcdRel.do,SUCCESS,/new_page/propManage/examShowIcdRel.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1492,4186" />
+      <AbsolutePoint location="1492,4286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/swapQuestionLabel.do,questionA3,/new_page/QuestionManage/examAddQuestionA3.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1118,1790" />
+      <AbsolutePoint location="1118,1850" />
+      <AbsolutePoint location="577,1850" />
+      <AbsolutePoint location="577,1910" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,NOT_PROP_C,/page/examEditNotPropQuestionC.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3308,96" />
+      <AbsolutePoint location="3308,276" />
+      <AbsolutePoint location="2092,276" />
+      <AbsolutePoint location="2092,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/caseManage/deleteCase.do,success,/caseManage/caseManage.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1897,588" />
+      <AbsolutePoint location="1897,623" />
+      <AbsolutePoint location="2023,623" />
+      <AbsolutePoint location="2023,688" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/importQuestion.do,SUCCESS,/questionManage/questionManage.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="627,588" />
+      <AbsolutePoint location="627,638" />
+      <AbsolutePoint location="593,638" />
+      <AbsolutePoint location="593,688" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/material/MaterialVerify.do,edit,/new_page/materialManage/materialEdit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1293,1076" />
+      <AbsolutePoint location="1293,1226" />
+      <AbsolutePoint location="928,1226" />
+      <AbsolutePoint location="928,1286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemAdminOrgan.do,view,/page/systemAdminOrgan/systemAdminOrganView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="837,2726" />
+      <AbsolutePoint location="837,2791" />
+      <AbsolutePoint location="1003,2791" />
+      <AbsolutePoint location="1003,2826" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCardOrder.do,list,/page/systemCard/systemCardOrder.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="484,3602" />
+      <AbsolutePoint location="484,3702" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemSite.do,edit,/page/systemSite/systemSiteEdit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="813,2414" />
+      <AbsolutePoint location="813,2474" />
+      <AbsolutePoint location="401,2474" />
+      <AbsolutePoint location="401,2534" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/viewQuestion.do,EDIT_B1,/new_page/QuestionManage/examEditQuestionB1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3434,96" />
+      <AbsolutePoint location="3434,276" />
+      <AbsolutePoint location="4696,276" />
+      <AbsolutePoint location="4696,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/propManage/hospitalList.do,SUCCESS,/new_page/propManage/hospitalList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="495,4186" />
+      <AbsolutePoint location="495,4286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCategory.do,list,/page/systemCategoryNews/categoryList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2931,3018" />
+      <AbsolutePoint location="2931,3118" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/systemClient.do,view,/page/systemClient/systemClientView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="676,3018" />
+      <AbsolutePoint location="676,3083" />
+      <AbsolutePoint location="813,3083" />
+      <AbsolutePoint location="813,3118" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemCategory.do,add,/page/systemCategoryNews/categoryAdd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3047,3018" />
+      <AbsolutePoint location="3047,3068" />
+      <AbsolutePoint location="3300,3068" />
+      <AbsolutePoint location="3300,3118" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/system/SystemIndustryAbility.do,list,/page/systemProp/systemIndustryAbility.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2386,2726" />
+      <AbsolutePoint location="2386,2791" />
+      <AbsolutePoint location="2526,2791" />
+      <AbsolutePoint location="2526,2826" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/swapQuestionLabel.do,questionD,/new_page/QuestionManage/examAddQuestionD.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1335,1790" />
+      <AbsolutePoint location="1335,1820" />
+      <AbsolutePoint location="2231,1820" />
+      <AbsolutePoint location="2231,1910" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expert/ExpertGroupTerm.do,SUCCESS,/new_page/expertManage/expertGroupTerm.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2401,3894" />
+      <AbsolutePoint location="2401,3994" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/questionManage/compareQuestion.do,SUCCESS,/page/examCompareResult.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1329,3894" />
+      <AbsolutePoint location="1329,3944" />
+      <AbsolutePoint location="1268,3944" />
+      <AbsolutePoint location="1268,3994" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/propManage/icdList.do,SUCCESS,/new_page/propManage/examIcdList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1165,4186" />
+      <AbsolutePoint location="1165,4286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

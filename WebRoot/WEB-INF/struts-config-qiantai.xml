@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	
+	<form-beans>	
+		<form-bean name="regForm" type="com.hys.qiantai.struts.form.RegUserForm"></form-bean>
+		<!-- 首页banner -->
+		<form-bean name="bannerForm" type="com.hys.exam.struts.form.BannerForm"></form-bean>
+	</form-beans>
+
+	<action-mappings>
+		<action path="/login/GetRandomPictureAction" type="com.hys.qiantai.struts.action.GetRandomPictureAction" scope="request" >
+		</action>
+		
+		<action path="/login" type="com.hys.auth.struts.action.LoginAction" scope="request">
+			<forward name="input" path="/login.jsp" />
+			<forward name="SUCCESS" path="/first.do" />
+		</action>
+		
+		<!-- 通过AJAX方式实现登录 -->
+		<action path="/loginAJAX" type="com.hys.auth.struts.action.LoginAJAXAction" scope="request">
+			<forward name="input" path="/login.jsp" />
+			<forward name="SUCCESS" path="/first.do" />
+		</action>
+<!-- 		通过ajax方法实现登录 -->
+		<action path="/loginAJAXlogin" type="com.hys.auth.struts.action.AJAXActionLogin" scope="request">
+			<!-- <forward name="input" path="/login.jsp" />
+			<forward name="SUCCESS" path="/first.do" /> -->
+		</action>
+		
+		<action path="/Ajaxlogin" type="com.hys.qiantai.struts.action.LoginAjaxAction" scope="request">
+		</action>
+		<action path="/logout" type="com.hys.auth.struts.action.LogoutAction">
+		
+		
+			<forward name="SUCCESS" path="/first.do"></forward>
+		</action>
+		
+		
+		
+		<!-- 首页 -->
+		<action path="/first" type="com.hys.qiantai.struts.action.FirstPageAction" scope="request">
+			<forward name="SUCCESS" path="/first.do" />
+		</action>
+		
+		
+	  
+		
+		
+		<!-- 乡医首页 -->
+		<action path="/XiangYiIndex" type="com.hys.xiangyi.struts.action.FirstPageAction" scope="request">
+			<forward name="111111111" path="/qiantai_page/xiangYi/index.jsp" />
+			<forward name="111000004" path="/qiantai_page/xiangYi/shanxi.jsp" />
+			<forward name="111000015" path="/qiantai_page/xiangYi/shandong.jsp" />
+			<forward name="111000018" path="/qiantai_page/xiangYi/hunan.jsp" />
+			<forward name="111000003" path="/qiantai_page/xiangYi/hebei.jsp" />
+			<forward name="111000011" path="/qiantai_page/xiangYi/zhejiang.jsp" />
+			<forward name="111000013" path="/qiantai_page/xiangYi/fujian.jsp" />
+			<forward name="111000031" path="/qiantai_page/xiangYi/xinjiang.jsp" />
+
+		</action>
+		<action path="/DynamicNotice" type="com.hys.xiangyi.struts.action.DynamicNoticeAction" scope="request">
+			<forward name="SUCCESS" path="/qiantai_page/xiangYi/dongTaiZiXunAll/Dynamic_notice_1.jsp" />
+		</action>
+		<action path="/DynamicList" type="com.hys.xiangyi.struts.action.DynamicListAction" scope="request">
+			<forward name="SUCCESS" path="/qiantai_page/xiangYi/Dynamic_list.jsp" />
+		</action>
+		<action path="/UserProvinceCode" type="com.hys.xiangyi.struts.action.UserProvinceCodeAction" scope="request">
+			<forward name="SUCCESS" path="/first.do" />
+		</action>
+		
+		<!-- 公需科目 -->
+		<action path="/PublicSubject" type="com.hys.qiantai.struts.action.CVSetAction" name="CVS_Form" scope="request">
+			<forward name="list" path="/qiantai_page/pub_subject/pub_subject.jsp"></forward>
+		</action>
+		
+		<!-- 胜任力 -->
+		<action path="/Ability" type="com.hys.qiantai.struts.action.AbilityListAction" scope="request">
+			<forward name="SUCCESS" path="/qiantai_page/Ability/AbilityList.jsp"></forward>
+			<forward name="LOGIN" path="/qiantai_page/Ability/AbilityNoLogin.jsp"></forward>			
+		</action>
+		
+		<!-- 专委会 -->
+		<action path="/ExpertGroup" type="com.hys.qiantai.struts.action.ExpertGroupAction" name="expertGroupForm" scope="request">
+			<forward name="list" path="/qiantai_page/expertGroup/expertGroup.jsp"></forward>
+			<forward name="detail" path="/qiantai_page/expertGroup/expertGroupInfo.jsp"></forward>
+		</action>
+		
+		<!-- 学科导航 -->
+				<!-- 异步加载 -->
+<!-- 		<action path="/courseManage/courseList" type="com.hys.exam.struts.action.CourseListAction" scope="request"> -->
+				<!-- 初始化静态页面加载 -->
+		<action path="/courseManage/courseList" type="com.hys.exam.struts.action.CourseListStaticAction" scope="request">
+			<forward name="SUCCESS" path="/qiantai_page/courseManage/courseList.jsp"></forward>
+		</action>
+		
+		<!-- 海外视野 -->
+		<action path="/haiWaiShiYe" type="com.hys.qiantai.struts.action.HaiWaiShiYeAction" scope="request">
+			<forward name="SUCCESS" path="/qiantai_page/under_construction.jsp" />
+		</action>
+		
+		<action path="/entityManage/entityView" type="com.hys.exam.struts.action.EntityDetailAction" scope="request">
+			<forward name="SUCCESS" path="/qiantai_page/entityManage/entityDetail.jsp"></forward>
+			<forward name="play" path="/qiantai_page/play/play.jsp"></forward>
+			<forward name="play2" path="/qiantai_page/play/play2.jsp"></forward>
+			<forward name="play3" path="/qiantai_page/play/play3.jsp"></forward>
+			<forward name="play2View" path="/qiantai_page/play/play2View.jsp"></forward>
+			<forward name="play3View" path="/qiantai_page/play/play3View.jsp"></forward>
+			
+			<forward name="play4View" path="/qiantai_page/play/play4View.jsp"></forward>
+			<!-- 拓展阅读-->
+			<forward name="reading" path="/qiantai_page/play/reading.jsp"></forward>
+			<!-- 
+			<forward name="courseTest" path="/qiantai_page/play/playCourseTest.jsp"></forward>
+			 -->
+			<forward name="courseTest" path="/qiantai_page/play/playCourseTest2.jsp"></forward>
+			<forward name="caseAnalysis" path="/qiantai_page/play/CaseAnalysis3.jsp"></forward>
+			<forward name="subjectDiscuss" path="/qiantai_page/play/SubjectDiscuss.jsp"></forward>
+			<forward name="login" path="/login.do"></forward>
+			<forward name="first" path="/first.do"></forward>
+		</action>
+		
+		<action path="/teacherManage/teacherManage" type="com.hys.qiantai.struts.action.TeacherManageAction" scope="request">
+			<forward name="SUCCESS" path="/qiantai_page/teacherManage/teacherManage.jsp"></forward>
+		</action>
+		<action path="/teacherManage/teacherDetail" type="com.hys.qiantai.struts.action.TeacherManageAction" scope="request">
+			<forward name="SUCCESS" path="/qiantai_page/teacherManage/teacherManage.jsp"></forward>
+			<forward name="view" path="/qiantai_page/teacherManage/teacherDetail.jsp"></forward>
+		</action>
+		
+		<!-- 选择学科 AJAX -->
+		<action path="/propManage/getPropListAjax" scope="request" type="com.hys.exam.struts.action.ExamPropListAjaxAction">
+		</action>
+		<action path="/examManage/getHospitalAddressAjax" scope="request" type="com.hys.exam.struts.action.exam.ExamHospitalAddressAjaxAction">
+		</action>
+		<action path="/examManage/getHospitalLevelAjax" scope="request" type="com.hys.exam.struts.action.exam.ExamHospitalLevelAjaxAction">
+		</action>
+		<action path="/propManage/propWorkUnit" scope="request" type="com.hys.exam.struts.action.exam.WorkUnitListAjaxAction">
+		</action>
+		<action path="/examManage/getHospitalListAjax" scope="request" type="com.hys.exam.struts.action.exam.ExamHospitalListAjaxAction">
+		</action>
+		<action path="/registerUser" type="com.hys.qiantai.struts.action.RegisterAction" scope="request" name="regForm">
+			<forward name="callback" path="/register.jsp" />
+			<forward name="fail" path="/register.jsp" />
+			<forward name="success" path="/first.jsp" />
+		</action>
+		<!-- 机构 -->
+		<action path="/OrgManage/OrgManage"  type="com.hys.exam.struts.action.OrgManageAction"	scope="request" name = "orgForm">
+			<forward name="list" path="/qiantai_page/OrgManage/org.jsp"></forward>
+		</action>
+		<action path="/OrgManage/OrgDetail" type="com.hys.exam.struts.action.CVSet.CVSetOrgAction" name="CVS_Form" scope="request">
+			<forward name="edit_page" path="/qiantai_page/OrgManage/org_detail.jsp"></forward>
+			<forward name="project_page" path="/qiantai_page/OrgManage/org_project_list.jsp"></forward>
+			<forward name="teacher_page" path="/qiantai_page/OrgManage/org_teacher_list.jsp"></forward>			
+		</action>
+		<action path="/entityManage/getEntityInfoAjax" scope="request" type="com.hys.qiantai.struts.action.GetEntityInfosAjax">
+		</action>
+		<action path="/entityManage/getEntityInfo" scope="request" type="com.hys.qiantai.struts.action.GetEntityInfos">
+		</action>
+		
+		<!-- 基层学院 -->
+		<action path="/BasicSubject" type="com.hys.qiantai.struts.action.CVSetAction" name="CVS_Form" scope="request">
+			<forward name="list" path="/qiantai_page/basicSubject/basicSubject.jsp"></forward>
+		</action>
+		<action path="/ProjectList" type="com.hys.qiantai.struts.action.ProjectListAction" name="CVS_Form" scope="request">
+			<forward name="list" path="/qiantai_page/ProjectList.jsp"></forward>
+		</action>
+		
+		<!-- 名师课程 -->
+        <action path="/starCourseList" type="com.hys.qiantai.struts.action.starCourseListAction" scope="request">
+            <forward name="list" path="/qiantai_page/starCourseList.jsp"></forward>
+        </action>
+		
+        <!-- 病例 -->
+        <action path="/caseList" type="com.hys.qiantai.struts.action.CaseListAction" scope="request">
+            <forward name="list" path="/qiantai_page/caseList.jsp"></forward>
+        </action>
+        <!-- 直播 -->
+        <action path="/liveList" type="com.hys.qiantai.struts.action.LiveListAction" scope="request">
+            <forward name="list" path="/qiantai_page/liveList.jsp"></forward>
+        </action>
+        <!-- vr -->
+        <action path="/vrList" type="com.hys.qiantai.struts.action.VrListAction" scope="request">
+            <forward name="list" path="/qiantai_page/vrList.jsp"></forward>
+        </action>
+        <!-- 项目详情 -->
+        <action path="/projectDetail" type="com.hys.qiantai.struts.action.ProjectDetailAction" scope="request">
+            <forward name="detail" path="/qiantai_page/projectDetail.jsp"></forward>
+        </action>
+        <!-- 项目预览 -->
+        <action path="/projectView" type="com.hys.qiantai.struts.action.ProjectViewAction" scope="request">
+            <forward name="detail" path="/qiantai_page/projectView.jsp"></forward>
+        </action>
+		<action path="/postView" type="com.hys.qiantai.struts.action.PostViewAction" scope="request">
+			<forward name="SUCCESS" path="/qiantai_page/postView.jsp"></forward>
+		</action>
+		<action path="/postView" type="com.hys.qiantai.struts.action.PostViewAction" scope="request">
+			<forward name="SUCCESS" path="/qiantai_page/postView.jsp"></forward>
+		</action>
+		<action path="/postList" type="com.hys.qiantai.struts.action.PostListViewAction" scope="request">
+			<forward name="SUCCESS" path="/qiantai_page/postList.jsp"></forward>
+		</action>
+		<!-- 我的学科 -->
+		<action path="/userInfo/MyCourse" type="com.hys.qiantai.struts.action.ExpertGroupAction" name="expertGroupForm" scope="request">
+			<forward name="personal" path="/qiantai_page/userInfo/MyCourse.jsp"></forward>
+			<forward name="fail" path="/first.do"></forward>
+		</action>
+		<!-- 我的学习 -->
+		<action path="/userInfo/MyStudyManage" type="com.hys.qiantai.struts.action.MyStudyManageAction">
+			<forward name="success" path="/qiantai_page/userInfo/myStudy.jsp"></forward>
+			<forward name="tab2" path="/qiantai_page/userInfo/myStudy2.jsp"></forward>
+			<forward name="fail" path="/first.do"></forward>
+			<forward name="checkComment" path="/qiantai_page/userInfo/checkComment.jsp"></forward>
+		</action>
+		<!--个人中心 / 我的收藏-->
+		<action path="/userInfo/userFav"  type="com.hys.qiantai.struts.action.MyFavouriteAction" name="CVS_Form" scope="request">
+			<forward name="list" path="/qiantai_page/userInfo/My_fav.jsp"></forward>
+			<forward name="fail" path="/first.do"></forward>
+		</action>
+		<!--个人中心 / 我的胜任力-->
+		<action path="/userInfo/userAbility"  type="com.hys.qiantai.struts.action.MyAbilityAction" name="CVS_Form" scope="request">
+			<forward name="list" path="/qiantai_page/userInfo/My_ability.jsp"></forward>
+			<forward name="fail" path="/first.do"></forward>
+		</action>
+		<!-- 我的帐户 -->
+		<action path="/userInfo/myAccountManage" type="com.hys.qiantai.struts.action.MyAccountManageAction">
+			<forward name="success" path="/qiantai_page/userInfo/myAccount.jsp"></forward>
+			<forward name="fail" path="/first.do"></forward>
+		</action>
+		<!-- 我的消息 -->
+		<action path="/userInfo/myMessageManage" type="com.hys.qiantai.struts.action.MyMessageManageAction">
+			<forward name="success" path="/qiantai_page/userInfo/myMessage.jsp"></forward>
+			<forward name="fail" path="/first.do"></forward>
+		</action>
+		<!-- 学习档案 -->
+		<action path="/userInfo/studyRecordManage" type="com.hys.qiantai.struts.action.StudyRecordManageAction">
+			<forward name="success" path="/qiantai_page/userInfo/studyRecord.jsp"></forward>
+			<forward name="fail" path="/first.do"></forward>
+		</action>
+		<action path="/userInfo/studyYearReport" type="com.hys.qiantai.struts.action.StudyReportAction">
+			<forward name="success" path="/qiantai_page/userInfo/yearReport.jsp"></forward>
+			<forward name="fail" path="/first.do"></forward>
+		</action>
+		<action path="/userInfo/studyReport" type="com.hys.qiantai.struts.action.StudyReportAction">
+			<forward name="success" path="/qiantai_page/userInfo/studyReportDetail.jsp"></forward>
+			<forward name="fail" path="/first.do"></forward>
+		</action>
+		<action path="/userInfo/userAccount" type="com.hys.qiantai.struts.action.UserAccountAction" scope="request" name="regForm">
+			<forward name="callback" path="/qiantai_page/userInfo/man_account.jsp"/>
+			<forward name="fail" path="/login.jsp"/>
+		</action>
+		<!-- <action path="/edu/deOpinionManage" type="com.hys.auth.struts.action.DeOpinionAction" scope="request" name="deOpinion_From">
+		<forward name="success" path="/first.jsp"/>
+			<forward name="fail" path="/login.jsp"/>
+		</action> -->
+		
+		
+		<action path="/courseManage/courseDetail" type="com.hys.exam.struts.action.GetSubjectListAction" name="expertGroupForm" scope="request">
+			<forward name="personal" path="/qiantai_page/userInfo/MyCourse.jsp"></forward>
+			<forward name="fail" path="/first.do"></forward>
+		</action>
+		<action path="/searchAction" type="com.hys.qiantai.struts.action.SearchAction" scope="request">
+			<forward name="success" path="/search_results.jsp"/>
+		</action>
+		
+		<!-- 我的证书 -->
+		<action path="/myStudy/DiplomaAction" type="com.hys.exam.struts.action.CvDiplomaAction" scope="request">
+		<forward name="success" path="/qiantai_page/userInfo/My_Diploma.jsp"></forward>
+		</action>
+		
+		<!-- 我的证书2 -->
+		<action path="/myStudy/DiplomaAction2" type="com.hys.exam.struts.action.CvDiplomaAction" scope="request">
+		<forward name="success" path="/qiantai_page/CertificatQeuery/list.jsp"></forward>
+		
+		</action>
+		
+		
+	<!-- 查询达标指标情况 -->
+		
+		<action path="/play/CvUnit" type="com.hys.qiantai.struts.action.CvUnitAction" scope="request">
+		
+		</action>
+		
+		<!-- 直播接口 -->	
+        <action path="/liveListInterface" type="com.hys.qiantai.struts.action.LiveListInterfaceAction" scope="request">
+            <forward name="listIn" path="/qiantai_page/liveListInterface.jsp"></forward>
+        </action>
+        
+        <!-- 观看入口 -->	
+        <action path="/viewLiveListInterface" type="com.hys.qiantai.struts.action.CvLiveViewAction" scope="request">
+            <forward name="viewListIn" path="/qiantai_page/viewLiveListInterface.jsp"></forward>
+            <forward name="viewBack" path="/qiantai_page/viewLivePlayback.jsp"></forward>
+        </action>	
+		
+		<!-- 直播K值权限验证 -->
+		<action path="/cvLive/authorization" scope="request" type="com.hys.qiantai.struts.action.liveservice.CvLiveKAuthenticationCallback">
+		</action>
+		<!-- 直播/教育大讲堂和人员状态接口 -->
+		<action path="/cvLive/classRecordStatus" scope="request" type="com.hys.qiantai.struts.action.liveservice.ICvLiveClassAttendanceRecord">
+		</action>
+		<!-- 面授报名 -->
+		<action path="/entityManage/faceEntry" type="com.hys.exam.struts.action.FaceEntryAction" scope="request">
+		<forward name="faceEntry" path="/qiantai_page/play/faceEntry.jsp"></forward>
+		<forward name="printFaceEntry" path="/qiantai_page/userInfo/printFaceEntry.jsp"></forward>
+		</action>
+      		
+	</action-mappings>
+
+</struts-config>
